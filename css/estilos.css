@@ -1,0 +1,34 @@
+
+body{
+    background-image: url("../img/encabezado.png");
+    color: floralwhite;
+}
+header{
+    background-color: blueviolet;
+}
+
+nav, header, .contenedor, aside, .central, footer{
+    max-width: 92%;
+    margin: auto;
+}
+
+/*nav{
+    
+}
+*/
+.contenedor{
+    background-color: chartreuse;
+}
+.central{
+    background-color: coral;
+    display: inline-block;
+    max-width: 65%;
+}
+footer{
+    background-color: cyan;
+}
+aside{
+    background-color: salmon;
+    display: inline-block;
+    max-width: 27%;
+}
